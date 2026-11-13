@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+
+:root {
+  --ink-900: #1f2634;
+  --ink-800: #2b374a;
+  --ink-700: #5f6f84;
+  --mint-700: #2c8f80;
+  --mint-500: #35a191;
+  --mint-100: #e7f7f3;
+  --peach-700: #b96c46;
+  --peach-100: #fff0e8;
+  --surface: #ffffff;
+  --line: #dbe9e7;
+  --soft-shadow: 0 14px 28px rgba(31, 38, 54, 0.06);
+  --font-base: 'Manrope', 'Segoe UI', sans-serif;
+  --font-display: 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-base);
+  background:
+    radial-gradient(circle at 8% 8%, rgba(206, 244, 236, 0.5), transparent 28%),
+    radial-gradient(circle at 92% 14%, rgba(255, 236, 224, 0.5), transparent 24%),
+    linear-gradient(180deg, #fdfefe, #f9fdfd 48%, #fefaf6);
+  color: var(--ink-900);
+  line-height: 1.6;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
